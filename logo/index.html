@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: aliceblue;">
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="log/logo.png.jpeg" alt="Organization Logo" class="logo">
+            <h1 class="org-name">Ar Organization</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html" target="content-frame">Home</a></li>
+                <li><a href="about.html" target="content-frame">About</a></li>
+                <li><a href="services.html" target="content-frame">Services</a></li>
+                <li><a href="contact.html" target="content-frame">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <!-- This iframe will load different pages (home, about, etc.) -->
+        <iframe name="content-frame" src="home.html" class="content-frame"></iframe>
+    </div>
+
+</body>
+</html>
